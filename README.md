@@ -4,24 +4,6 @@
 
 ---
 
-## ✨ Funcionalidades
-
-| Feature | Status |
-|---------|--------|
-| 🔐 Login / Cadastro / Logout | ✅ |
-| 🚀 Onboarding animado (3 slides) | ✅ |
-| 🌌 Logo Cosmic SVG animado | ✅ |
-| 📋 Projetos com Markdown | ✅ |
-| 🖼️ Capa e galeria de imagens | ✅ |
-| 🏷️ Tags coloridas | ✅ |
-| 📊 Dashboard com estatísticas | ✅ |
-| 👤 Perfil com edição de nome/senha | ✅ |
-| 🔍 Busca em tempo real | ✅ |
-| ⊞ Grid / Lista | ✅ |
-| 🎭 Animações e haptic feedback | ✅ |
-| 🛡️ RLS — dados isolados por usuário | ✅ |
-| 🧪 102 testes automatizados | ✅ |
-
 ---
 
 ## 🚀 Como Rodar
@@ -72,30 +54,7 @@ npm run test:coverage    # cobertura
 
 ---
 
-## 🗄️ Estrutura
-```
-ideaverse/
-├── app/
-│   ├── (tabs)/          # Home, Tags, Stats, Perfil
-│   ├── auth/            # Login, Cadastro, Esqueci senha
-│   ├── profile/         # Editar perfil (nome/senha)
-│   ├── project/         # Detalhe, Criar, Editar
-│   └── onboarding.tsx
-├── src/
-│   ├── components/      # ProjectCard, Skeleton, Toast, Logo
-│   ├── hooks/           # useProjects, useAuth
-│   ├── lib/             # Supabase, Theme
-│   └── utils/           # toast, onboarding
-├── assets/
-│   ├── fonts/           # ← adicionar manualmente
-│   ├── icon.png
-│   └── splash.png
-├── __tests__/           # 102 testes
-├── supabase-schema-v2-auth.sql  # ← usar este
-└── CLAUDE.md
-```
 
----
 
 ## 🧠 Evoluindo o app
 
