@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Ideaverse",
+    "slug": "ideaverse",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080810"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ideaverse.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#080810"
+      },
+      "package": "com.ideaverse.app"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O Ideaverse precisa acessar suas fotos para adicionar imagens aos projetos."
+        }
+      ]
+    ],
+    "scheme": "ideaverse",
+    "extra": {
+      "router": { "origin": false },
+      "eas": { "projectId": "ideaverse" }
+    }
+  }
+}
