@@ -1,8 +1,6 @@
-# 🌌 Ideaverse v2.1
+# 🌌 Ideaverse
 
 > **Seu universo de ideias** — App mobile premium para organizar projetos com autenticação, logo Cosmic e design profissional.
-
----
 
 ---
 
@@ -14,7 +12,7 @@
 
 ### 2. Clone e instale
 ```bash
-git clone https://github.com/SEU_USUARIO/ideaverse.git
+git clone https://github.com/Raineri02/ideaverse.git
 cd ideaverse
 npm install
 ```
@@ -28,16 +26,7 @@ npm install
 
 > ⚠️ Use `supabase-schema-v2-auth.sql` — não o `supabase-schema.sql` antigo.
 
-### 4. Instale as fontes
-
-Baixe e coloque em `assets/fonts/`:
-
-| Fonte | Link | Arquivos necessários |
-|-------|------|---------------------|
-| Sora | [fonts.google.com/specimen/Sora](https://fonts.google.com/specimen/Sora) | Sora-Regular.ttf, Sora-SemiBold.ttf, Sora-Bold.ttf |
-| DM Sans | [fonts.google.com/specimen/DM+Sans](https://fonts.google.com/specimen/DM+Sans) | DMSans-Regular.ttf, DMSans-Medium.ttf |
-
-### 5. Rode
+### 4. Rode
 ```bash
 npm start
 ```
@@ -53,9 +42,6 @@ npm run test:coverage    # cobertura
 ```
 
 ---
-
-
-
 ## 🧠 Evoluindo o app
 
 Compartilhe o **[CLAUDE.md](./CLAUDE.md)** com o Claude para continuar desenvolvendo com todo o contexto.
